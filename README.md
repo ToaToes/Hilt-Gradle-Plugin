@@ -1,5 +1,6 @@
-# To implement Room database in android app
-# To create DAO (Data Access Object), entity to integrate database in android
+# To implement Room database in android app && To create DAO (Data Access Object), entity to integrate database in android
+
+To solve ksp, dependency reference not found problem: 
 
 Link: https://kotlinlang.org/docs/ksp-quickstart.html
 Link: https://developer.android.com/build/migrate-to-ksp
