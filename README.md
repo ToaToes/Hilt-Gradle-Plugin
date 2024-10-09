@@ -40,6 +40,12 @@ plugins {
 
   ...
 
+  /*
+    Not use these:
+    id("com.google.devtools.ksp") version "1.9.21-1.0.16" apply false
+    id("com.google.dagger.hilt.android") version "2.49" apply false
+  */
+
   alias(libs.plugins.ksp) apply false
   alias(libs.plugins.hilt) apply false
 }
@@ -51,6 +57,12 @@ In build.gradle.kts(Module:app)
 plugins{
 
   ...
+
+  /*
+    Not use these:
+    id("com.google.devtools.ksp")
+    id("com.google.dagger.hilt.android")
+  */
 
   alias(libs.plugins.ksp)
   alias(libs.plugins.hilt)
@@ -73,6 +85,16 @@ android{
 dependencies{
 
   ...
+
+  /*
+        Not use these:
+        //implementation(libs.hilt.android)
+        //ksp (libs.hilt.android.compiler.v2391)
+        implementation(libs.hilt.android.v249)
+
+        ksp (libs.dagger.compiler.v248) // Dagger compiler
+        ksp (libs.dagger.hilt.compiler)   // Hilt compiler
+  */
 
   implementation(libs.hilt.android)
   ksp(libs.hilt.compiler)
