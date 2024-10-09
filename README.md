@@ -1,4 +1,11 @@
-# Hilt-Gradle-Plugin
+# To implement Room database in android app
+# To create DAO (Data Access Object), entity to integrate database in android
+
+Link: https://kotlinlang.org/docs/ksp-quickstart.html
+Link: https://developer.android.com/build/migrate-to-ksp
+Link: 
+
+## Hilt-Gradle-Plugin
 The Hilt Android Gradle plugin, and the dependency problems
 
 
