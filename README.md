@@ -3,8 +3,8 @@
 To solve ksp, dependency reference not found problem: 
 
 Link: https://kotlinlang.org/docs/ksp-quickstart.html
-Link: https://developer.android.com/build/migrate-to-ksp
-Link: 
+<br/> Link: https://developer.android.com/build/migrate-to-ksp
+<br/> Link: https://stackoverflow.com/questions/62882730/the-hilt-android-gradle-plugin-is-applied-but-no-com-google-daggerhilt-android
 
 ## Hilt-Gradle-Plugin
 The Hilt Android Gradle plugin, and the dependency problems
